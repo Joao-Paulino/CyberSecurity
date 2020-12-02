@@ -8,9 +8,9 @@ We will learn the following:
 
 Let's go:
 excute on command line (zhs :) )
-(sudo) nmap -sC -sV -p- -T4 <RemoteIp> or 
-(sudo) nmap -A <RemoteIp> or 
-(sudo) nmap -T4 - A -V <RemoteIp>
+(sudo) nmap -sC -sV -p- -T4 "<RemoteIp>" or 
+(sudo) nmap -A "<RemoteIp>" or 
+(sudo) nmap -T4 - A -V "<RemoteIp>"
 
 go to samba target (CVE-2007-2447 with metasploit framework)
 
