@@ -100,7 +100,7 @@ run
 # Transport: TCP/UDP (end-To_end Connections)
 # Session: API's, Sockets, WinSock (Sync & Send to Port
 # Presentation: SSl,SSH IMAP,FTP,MPEG, JPEG (Sytax Lauer)
-# Application:HTTP,FTP,IRC,SH,DNS (End User Layer
+# Application:HTTP,FTP,IRC,SH,DNS (End User Layer)
 
 
 
