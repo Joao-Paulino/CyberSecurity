@@ -22,7 +22,10 @@ Port 22, 113, 139
 >_ nmap scanme.nmap.org -sV
 
 >_ nmap scanme.nmap.org -p22 -A
+
 >_ nmap -sA -t4 RemoteIp
+
+>_ nmap -T4 -A -v RemoteIp
 
 
 ##Enumerating#
