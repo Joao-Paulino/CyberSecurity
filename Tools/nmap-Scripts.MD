@@ -1,8 +1,14 @@
 
-sudo git clone https://github.com/vulnersCom/nmap-vulners vulnerscom
+sudo git clone https://github.com/vulnersCom/nmap-vulners.git 
 
-sudo ln -s `pwd`/vulnerscom /usr/share/nmap/scripts/vulnerscom
+[Optional] sudo ln -s `pwd`/nmap-vulners /usr/share/nmap/scripts/nmap-vulners
 
-sudo git clone https://github.com/scipag/vulscan scipag_vulscan
+>_ sudo nmap --script vulscan/vulscan.nse -sV -p80 192.168.50.171
 
-sudo ln -s `pwd`/scipag_vulscan /usr/share/nmap/scripts/vulscan
+
+sudo git clone https://github.com/scipag/vulscan.git
+
+[Optional] sudo ln -s `pwd`/vulscan /usr/share/nmap/scripts/vulscan
+
+>_ udo nmap --script vulscan/vulscan.nse -sV -p80 RemoteHostIp
+
