@@ -12,3 +12,4 @@
 
 >_ sudo nmap --script vulscan/vulscan.nse -sV -p80 RemoteHostIp
 
+>_ sudo git clone https://github.com/digitalbond/Redpoint.git
