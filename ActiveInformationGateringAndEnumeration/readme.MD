@@ -23,25 +23,28 @@ Port 22, 113, 139
 
 >_ nmap scanme.nmap.org -p22 -A
 
->_ nmap -sA -t4 RemoteIp
+>_ nmap -sA -t4 RemoteHostIp
 
->_ nmap -T4 -A -v RemoteIp
+
+>_ nmap -T4 -A -v RemoteHostIp
+
+>_ sudo nmap -sC -sV -p- -T4 RemoteHostIp
 
 
 ##Enumerating#
 #smb# (samba)
 
->_ nmap RemoteIp -A
+>_ nmap RemoteHostIp -A
 
->_ enum4linux -U RemoteIp (user list)
+>_ enum4linux -U RemoteHostIp (user list)
 
->_ enum4linux -S RemoteIp (shares)
+>_ enum4linux -S RemoteHostIp (shares)
 
 >_ smbclient //RemoteIp/profiles 
 
 ##ftp&smtp##
 
->_ nmap RemoteIp -A
+>_ nmap RemoteHostIp -A
 
 >_ ftp RemoteIp
   name: anonymous (example)
