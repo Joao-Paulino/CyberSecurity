@@ -1,0 +1,46 @@
+#TP-LINK TL-WN722N v3##
+Web Browser https://github.com/aircrack-ng/rtl8188eus
+
+>_ sudo git clone https://github.com/aircrack-ng/rtl8188eus
+
+>_ sudo su 
+
+>_ echo "blacklist r8188eu" >> "/etc/modprobe.d/realtek.conf"
+
+>_ exit
+
+>_ sudo make && sudo make install
+
+> _ cd /etc/NetworkManager
+
+>_ sudo nano NetworkManager.conf
+
+[device]
+wifi.scan-rand-mac-address=no
+
+[ifupdown]
+managed=false
+
+[connection]
+wifi.powersave=0
+
+[main]
+plugins=ifupdown,keyfile
+
+[keyfile]
+unmanaged-devices=interface-name:<interface>
+
+
+Reboot
+
+>_ sudo ip link set <interface> down
+
+>_ sudo iw dev <interface> set type monitor
+
+>_ aireplay -9 <interface>
+
+
+
+
+
+
