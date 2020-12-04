@@ -1,0 +1,87 @@
+##DVWA##
+
+Download DVWA from http://www.dvwa.co.uk/
+
+NOTE: I use BacKBox Distro (5.4.0-54-generic) and zsh
+
+Download XAMPP for Linux from https://www.apachefriends.org/download.html (64Bit)
+
+>_ chmod +x xampp-linux-x64-8.0.0-0-installer.run
+
+>_ sudo ./xampp-linux-x64-8.0.0-0-installer.run
+
+>_ sudo cp DVWA-master.zip /opt/lampp/htdocs/
+
+>_ cd /opt/lampp/htdocs/
+
+>_ sudo unzip DVWA-master.zip
+
+>_ sudo mv  DVWA-master DVWA
+
+>_ sudo chmod -R 777 DVWA
+
+>_ cd DVWA
+
+>_ cp config.inc.php.dist config.inc.php
+
+>_ sudo nano config.inc.php
+
+(set) $_DVWA[ 'recaptcha_public_key' ]  = ' ';
+(set) $_DVWA[ 'recaptcha_private_key' ] = ' ';
+
+>_ sudo nano php.ini
+
+(set) allow_url_fopen = on
+(set) allow_url_include = on
+
+>_ cd /opt/lampp/etc/
+
+>_  sudo nano php.ini
+
+(set) allow_url_include=ON
+
+>_ cd /opt/lampp/
+
+>_  sudo ./manager-linux-x64.run (start XUMPP)
+
+>_ cd $home 
+
+>_ sudo nano  .zshrc
+  
+  export PATH=${PATH}:/opt/lampp/bin 
+  
+ >_ sudo source ~/.zshrc 
+ 
+ >_ mysql -u root -p
+ 
+ MariaDB[(none)}] CREATE USER 'dvwa'@127.0.0.1  IDENTIFIED BY 'p@ssw0rd';
+
+ MariaDB[(none)}]  SELECT User FROM mysql.user;
+
+ MariaDB[(none)}] GRANT ALL PRIVILEGES ON *.* TO 'dvwa'@127.0.0.1 IDENTIFIED BY 'p@ssw0rd';
+
+ MariaDB[(none)}] FLUSH PRIVILEGES;
+
+ MariaDB[(none)}]  SHOW GRANTS FOR 'dvwa'@127.0.0.1;
+ 
+ MariaDB[(none)}] exit
+ 
+ Web browser http://localhost/DVWA/
+ 
+ Selct create database
+ 
+ Enjoy!
+ 
+ >_JMP
+ 
+
+
+
+
+
+
+
+
+
+
+
