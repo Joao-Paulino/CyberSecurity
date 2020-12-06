@@ -1,0 +1,121 @@
+
+##Ethical hacker Essential Kit
+
+Linux OS (BlackArch, BackBox, Kali, Parrot Security,  Tails or other with right tools :) )
+
+OSINT and Vulnerability Databases (CVE, NVDm Bugtraq, CVSS)
+
+
+Tools
+
+	1. Nmap, Zenmap, Ncrack (Network Mapper and a high-speed network authentication cracking tool  )
+	
+	2. Enum4Linux
+	
+	3. Netcat (Swiss Knife)
+	
+	4. Ettercap (IT's a comprehensive suite for man in the middle attacks or MITM. It features sniffing of live connections, content filtering on the fly and many other interesting tricks…)
+	
+	5. Wireshark (Network analyzer with 600 authors. With this software, can quickly capture and interpret network packets…)
+	
+	6. Xplico (It's a network forensics analysis tool (NFAT), which is a software that reconstructs the contents of acquisitions performed with a packet sniffer, extract from an internet traffic capture the applications data contained. For example, from a pcap file Xplico extracts each email POP, IMAP, …)
+	
+	
+	7. BeEF or The Browser Exploitation Framework. (IT's  a penetration testing tool that focuses on the web browser…)
+	
+	8. Nessus  (Vulnerability Scanner - Unpatched services and misconfiguration, Weak passwords – default and common, Various system vulnerabilities)
+	
+	9. W3af (IT's a Web Application Attack and Audit Frameworks are focused on finding and exploiting vulnerabilities in all web applications…)
+	
+	10. Nikto  ( Test and Scan Web Server, software that is outdated, dangerous CGIs or files, and other problems. Checks web servers and identifies over 6400 CGIs or files that are potentially dangerous….)
+	
+	11. Aircrack (designed for cracking flaws within wireless connections by capturing data packets for an effective protocol in exporting through text files for analysis…)
+	
+	12. Kismet (Testing wireless networks and hacking of wireless LAN or wardriving. It passively identifies networks and collects packets and detects non-beaconing and hidden networks with the help of data traffic…)
+	
+	13. John the Ripper password cracker (IT's a password security auditing and password recovery tool available for many operating systems. John the Ripper jumbo supports hundreds of hash and cipher types…)
+	
+	14. Metasploit framework and meterpreter (Ruby-based, modular penetration testing platform that enables you to write, test, and execute exploit code. The Metasploit Framework contains a suite of tools that you can use to test security vulnerabilities, enumerate networks, execute attacks, and evade detection…)
+	
+	15. Armitage (It'sa graphical cyber-attack management tool for the Metasploit Project that visualizes targets and recommends exploit…)
+	
+	16. Burp Suite Community Edition (This tool is ideal for checking web-based applications. There are tools to map the tack surface and analyze requests between a browser and destination servers. The framework uses Web Penetration Testing on the Java platform and is an industry-standard tool…)
+	
+	17. Maltego community edition (IT's a software used for open-source intelligence and forensics, The basic focus of the application is analyzing real-world relationships (Social Networks, OSINT APIs, Self-hosted Private Data and Computer Networks Nodes) between people, groups, Webpages, domains, networks, internet infrastructure, and social media affiliations. Maltego extends its data reach with integrations...)
+	
+	18. OWASP Zed Attack Proxy or ZAP (IT's ideal for developers and testers that are new to penetration testing…)
+	
+	19. Wapiti (IT's an application security tool that allows black box testing. Black box testing checks web applications for potential liabilities. During the black box testing process, web pages are scanned, and the testing data is injected to check for any lapses in security…)
+	
+	20. Hydra and xHydra  (IT's a parallelized login cracker which supports numerous protocols to attack. It is very fast and flexible, and new modules are easy to add…)
+	
+	21. SQLmap (IT's an SQL injection takeover tool for databases. Supported database platforms include MySQL, SQLite, Sybase, DB2, Access, MSSQL, PostgreSQL…)
+	
+	22. Social Engineer Toolkit or SET (The Social-Engineer Toolkit (SET) is specifically designed to perform advanced attacks against the human element…)
+	
+	23. BlackArch Linux Tools (lots of..)
+	
+	24. BackBox Linux Tools
+	
+	25. Kali Kilux Tools
+	
+	26. Parrot Security Linux Tools
+	
+Areas
+	• Reconnaissance and Footprinting
+	• Scanning
+	• Network (scanning network, port scanning, banner grabbing, enumeration)
+	• Firewalls and Honeypots
+	• Social Engineering
+	• Vulnerability and Exploit
+	• Wireless Types and Vulnerabilities and  Hacking
+	• Mobile Hacking
+	• Evading IDS
+	• Buffer Overflow
+	• Web App and App Servers Hacking
+	• Cross-Site Scripting (XSS Vulnerabilities)
+	• Exploitation Techniques
+	• SQL Injections
+	• Cryptography
+	• Malicious Code
+	• Spyware and Keyloggers
+	• Covering Tracks
+	• Trojans and Backdoors
+	• Viruses and Worms
+	• Sniffers
+	• Session Hijacking
+	• Denial of Service
+	• Bypassing Security
+	
+Process / Methodology
+	• Security, Risk Management and Ethics
+	• Legal, Regulations, Compliance and Investigation
+	• Asset Security
+	• Security Architecture, Design and Engineering
+	• Communications and Network Security
+	• Information Security Classification and Program Development
+	• Identity and Access Management or AAA
+	• Information System Access Control
+	• Cryptography
+	• Software Development Security
+	• Physical Security
+	• Operations Security 
+	• Cloud  Attacks and Security
+	• Containerization Attacks and Security
+	• Network Design and Security Controls
+	• Security Assessment and Testing
+	• Penetration Testing
+	• Vulnerability Assessment 
+	• Security Incidents
+	• Business Continuity and Disaster Recovery Planning
+	
+	
+	 
+	
+	
+	
+	
+	
+
+
+
