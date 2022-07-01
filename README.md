@@ -1,5 +1,5 @@
 # CyberSecurity
-Training how access machines and other stuff
+Training how access machines and other stuff (like Reports)
 
 https://attack.mitre.org/
 
@@ -15,3 +15,4 @@ https://github.com/enaqx/awesome-pentest
 
 https://github.com/bayandin/awesome-awesomeness
 
+https://github.com/CyberSecurityUP/information-security-relatory
