@@ -16,3 +16,10 @@ https://github.com/enaqx/awesome-pentest
 https://github.com/bayandin/awesome-awesomeness
 
 https://github.com/CyberSecurityUP/information-security-relatory
+
+https://github.com/jh00nbr/SecurityList
+
+https://github.com/apsdehal/awesome-ctf#attacks
+
+https://github.com/jh00nbr/personal-sites
+
