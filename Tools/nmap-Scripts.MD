@@ -14,5 +14,5 @@
 
 >_ sudo git clone https://github.com/digitalbond/Redpoint.git
 
->_ udo nmap --script redpoint/ScriptName.nse -sV -p80 RemoteHostIp
+>_ dudo nmap --script redpoint/ScriptName.nse -sV -p80 RemoteHostIp
 
