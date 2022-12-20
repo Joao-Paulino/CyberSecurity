@@ -100,7 +100,7 @@ run
 >_ nv -lvp 4444
 
 # 7 OSI Layer 
-# Physical: coax, Wireless, Hubs, Repeters (Physical Sctructure
+# Physical: coax, Wireless, Hubs, Repeters (Physical Sctructure)
 # Data Link: Ethernet, PPP, Switech,Bridge (Frames)
 # Network: IP, ICMP,IPSec, IGMP (Packets)
 # Transport: TCP/UDP (end-To_end Connections)
