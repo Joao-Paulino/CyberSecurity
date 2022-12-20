@@ -38,3 +38,4 @@ sudo ifconfig wlan0 up
 sudo systemctl stop NetworkManager
 
 
+
